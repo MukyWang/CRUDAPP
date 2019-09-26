@@ -32,7 +32,7 @@ GO
 Under ./Model/CRUDDBContext.cs replace your connection string:
 
 ```C#
-optionsBuilder.UseSqlServer(@"data source=Your Server Name;initial catalog=CRUDDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework");
+optionsBuilder.UseSqlServer(@"data source=Your Server Name;initial catalog=CRUDLocalDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework");
 ```
 
 ## Structure
