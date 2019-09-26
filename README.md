@@ -29,7 +29,7 @@ CREATE TABLE [dbo].[Candidate](
 GO
 ```
 
-Under ./Model/CRUDDBContext.cs replace your connection string:
+Under ./Model/CRUDLocalDBContext.cs replace your connection string:
 
 ```C#
 optionsBuilder.UseSqlServer(@"data source=Your Server Name;initial catalog=CRUDLocalDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework");
